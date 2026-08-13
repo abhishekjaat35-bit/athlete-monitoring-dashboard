@@ -1,0 +1,55 @@
+pip install pandas
+
+python athlete_monitoring_dashboard.py
+
+================================================================================
+ATHLETE MONITORING SUMMARY
+================================================================================
+
+Athlete  Sessions  Average_Wellness  Average_Load  Total_Load  Average_Readiness  Minimum_Readiness
+Arjun          5               19.4         580.0        2900               62.6%              39.2%
+Priya          5               19.8         530.0        2650               65.6%              45.8%
+Rahul          5               22.6         480.0        2400               75.3%              58.8%
+Vikram         5               23.4         400.0        2000               80.5%              67.2%
+
+
+Ranking 
+
+================================================================================
+ATHLETE READINESS RANKING
+================================================================================
+
+1. Vikram     80.5%
+2. Rahul      75.3%
+3. Priya      65.6%
+4. Arjun      62.6%
+
+Team summary
+================================================================================
+TEAM MONITORING SUMMARY
+================================================================================
+
+Average Wellness Score : 21.3/25
+Average Training Load  : 497.5 AU
+Total Training Load    : 9950 AU
+Average Team Readiness : 71.0%
+Monitoring alerts
+The strongest monitoring concern is:
+Athlete: Arjun
+Date: 2026-08-06
+Training Load: 800 AU
+Readiness: 39.2%
+Status: High Monitoring Priority
+Lowest readiness
+================================================================================
+LOWEST READINESS OBSERVATION
+================================================================================
+
+Athlete   : Arjun
+Date      : 2026-08-06
+Training Load : 800 AU
+Readiness : 39.2%
+Status    : High Monitoring Priority
+The program also creates:
+athlete_monitoring_results.csv
+athlete_monitoring_summary.csv
